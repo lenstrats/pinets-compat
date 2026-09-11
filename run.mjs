@@ -35,9 +35,12 @@ async function runOne(file, symbol, tf, bars) {
                 .filter(([, n]) => n > 0)
         );
         // Fingerprint of every plot value and drawing object (10 significant digits) for differential runs.
-        const norm = (v) => (typeof v === 'number' ? (Number.isFinite(v) ? Number(v.toPrecision(10)) : String(v)) : v);
+        // FINGERPRINT_IGNORE_KEYS drops object keys a candidate build adds (e.g. a new drawing property),
+        // so the hash stays comparable with a baseline that doesn't have them.
+        const ignore = new Set((process.env.FINGERPRINT_IGNORE_KEYS ?? '').split(',').filter(Boolean));
+        const norm = (k, v) => (ignore.has(k) ? undefined : typeof v === 'number' ? (Number.isFinite(v) ? Number(v.toPrecision(10)) : String(v)) : v);
         res.fingerprint = createHash('sha1')
-            .update(JSON.stringify(plots.map(([k, p]) => [k, (p.data || []).map((d) => d?.value)]), (_, v) => norm(v)))
+            .update(JSON.stringify(plots.map(([k, p]) => [k, (p.data || []).map((d) => d?.value)]), norm))
             .digest('hex')
             .slice(0, 16);
     } catch (e) {

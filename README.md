@@ -41,6 +41,8 @@ bun compare.mjs runs/base-a.json runs/candidate.json --flaky runs/base-b.json
 
 The first run caches market data in `cache/`, so every later run uses identical bars. Each script's output is fingerprinted: every plot value and drawing object, at 10 significant digits. `compare.mjs` exits with code 1 if a script that ran before now fails, or if its output values changed.
 
+Sometimes a change adds a new property to drawing objects, for example a new `text_formatting` field on labels. Every script that draws those objects then gets a different fingerprint. To check that nothing else changed, run the candidate with `FINGERPRINT_IGNORE_KEYS=text_formatting` (a comma-separated list), which leaves those keys out of the fingerprint.
+
 ## Contents
 
 | Path | What it does |
