@@ -84,17 +84,17 @@ All 218 scripts that failed in PineTS compile without errors on TradingView (`re
 | `bug06-underscore-redeclared` | `Identifier '_' has already been declared` | [#250](https://github.com/LuxAlgo/PineTS/issues/250) (PR #302) |
 | `bug07-named-args-nan` | Silently all NaN | [#267](https://github.com/LuxAlgo/PineTS/issues/267) |
 | `bug08-method-on-float` | `close.dbl is not a function` | [#267](https://github.com/LuxAlgo/PineTS/issues/267) |
-| `bug11-scale-namespace` | `scale is not defined` | – |
+| `bug11-scale-namespace` | `scale is not defined` | – (fix: PR [#305](https://github.com/LuxAlgo/PineTS/pull/305)) |
 | `bug12-comment-indented-deeper` (+ `-udt-field`) | Transpile error (INDENT) | – (related: #253) |
 | `bug13-import-library` | Transpile error on `import` | – |
 | `bug14-method-as-variable-name` | Transpile error | – |
-| `bug15-label-set-text-font-family` | Not a function | – |
+| `bug15-label-set-text-font-family` | Not a function | – (fix: PR [#306](https://github.com/LuxAlgo/PineTS/pull/306)) |
 | `bug16-udt-method-on-for-in-var` | `z.bump is not a function` | – |
 | `bug17-const-inside-udf` | `MAXB is not defined` | – |
 | `bug18-enum-as-param-type` | `Mode is not defined` | – |
 | `bug19-comma-after-multiline-call` | Transpile error (COMMA) | – |
 | `bug20-request-financial/earnings/dividends/currency-rate` | Not a function | – |
-| `bug21-table-cell-set-text-formatting` | Not a function | – |
+| `bug21-table-cell-set-text-formatting` | Not a function | – (fix: PR [#307](https://github.com/LuxAlgo/PineTS/pull/307)) |
 | `bug22-strategy-closedtrades` | `undefined` | – |
 | `version-7-accepted` | TradingView rejects (CE10248); PineTS runs it | – |
 | `feat-2026-08-once` | Missing (transpile error) | – |
