@@ -1,11 +1,18 @@
-// Run every scraped script through PineTS, each in its own process, and write report.json + report.md.
-// Usage: [CONCURRENCY=4] bun run.mjs [symbol=BTCUSDT] [timeframe=60] [bars=1000]
-import { PineTS, Provider } from 'pinets';
-import { readFileSync, writeFileSync } from 'fs';
-import { join } from 'path';
+// Run every scraped script through PineTS, each in its own process, and write <REPORT_NAME>.json + .md.
+// Usage: [CONCURRENCY=4] [REPORT_NAME=report] [PINETS_MODULE=../PineTS/dist/pinets.dev.es.js PINETS_LABEL=...]
+//        bun run.mjs [symbol=BTCUSDT] [timeframe=60] [bars=1000]
+// Market data is cached in cache/ (DATA_CACHE), so runs against different PineTS builds see identical bars.
+import { createHash } from 'crypto';
+import { mkdirSync, readFileSync, writeFileSync } from 'fs';
+import { dirname, join } from 'path';
+import { CachedProvider } from './cached-provider.mjs';
+
+const { PineTS, Provider } = await import(process.env.PINETS_MODULE ?? 'pinets');
 
 const DIR = import.meta.dir;
 const SCRIPTS = join(DIR, 'scripts');
+const CACHE = process.env.DATA_CACHE ?? join(DIR, 'cache');
+const REPORT = join(DIR, process.env.REPORT_NAME ?? 'report');
 const TIMEOUT_MS = 120_000;
 const CONCURRENCY = Number(process.env.CONCURRENCY ?? 4);
 
@@ -13,7 +20,8 @@ async function runOne(file, symbol, tf, bars) {
     const res = {};
     const t0 = performance.now();
     try {
-        const ctx = await new PineTS(Provider.Binance, symbol, tf, Number(bars)).run(readFileSync(join(SCRIPTS, file), 'utf8'));
+        const provider = new CachedProvider(Provider.Binance, CACHE);
+        const ctx = await new PineTS(provider, symbol, tf, Number(bars)).run(readFileSync(join(SCRIPTS, file), 'utf8'));
         const plots = Object.entries(ctx.plots || {});
         const series = plots.filter(([k]) => !k.startsWith('__'));
         const hasNumbers = (data = []) => data.some((d) => typeof d?.value === 'number' && Number.isFinite(d.value));
@@ -26,6 +34,12 @@ async function runOne(file, symbol, tf, bars) {
                 .map(([k, p]) => [k.replaceAll('_', ''), (p.data?.at(-1)?.value || []).length])
                 .filter(([, n]) => n > 0)
         );
+        // Fingerprint of every plot value and drawing object (10 significant digits) for differential runs.
+        const norm = (v) => (typeof v === 'number' ? (Number.isFinite(v) ? Number(v.toPrecision(10)) : String(v)) : v);
+        res.fingerprint = createHash('sha1')
+            .update(JSON.stringify(plots.map(([k, p]) => [k, (p.data || []).map((d) => d?.value)]), (_, v) => norm(v)))
+            .digest('hex')
+            .slice(0, 16);
     } catch (e) {
         res.status = 'ERR';
         res.error = String(e?.message ?? e).split('\n')[0].slice(0, 240);
@@ -51,7 +65,9 @@ if (process.argv[2] === '--one') {
 
 const [symbol = 'BTCUSDT', tf = '60', bars = '1000'] = process.argv.slice(2);
 const index = JSON.parse(readFileSync(join(SCRIPTS, 'index.json'), 'utf8'));
-const pinetsVersion = JSON.parse(readFileSync(join(DIR, 'node_modules/pinets/package.json'), 'utf8')).version;
+const pinetsVersion =
+    process.env.PINETS_LABEL ??
+    (process.env.PINETS_MODULE ? 'local build' : JSON.parse(readFileSync(join(DIR, 'node_modules/pinets/package.json'), 'utf8')).version);
 
 async function runChild(s) {
     if (s.error) return { status: 'SKIP', error: s.error };
@@ -120,6 +136,7 @@ const md = [
             ].join(' | ')} |`
     ),
 ];
-writeFileSync(join(DIR, 'report.json'), JSON.stringify({ symbol, tf, bars, pinetsVersion, rows }, null, 2));
-writeFileSync(join(DIR, 'report.md'), md.join('\n') + '\n');
-console.log(`\n${tally((r) => r.category)}\n-> report.md, report.json`);
+mkdirSync(dirname(REPORT), { recursive: true });
+writeFileSync(`${REPORT}.json`, JSON.stringify({ symbol, tf, bars, pinetsVersion, rows }, null, 2));
+writeFileSync(`${REPORT}.md`, md.join('\n') + '\n');
+console.log(`\n${tally((r) => r.category)}\n-> ${REPORT}.md, ${REPORT}.json`);

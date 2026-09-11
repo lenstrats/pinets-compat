@@ -20,6 +20,27 @@ bun tv-compile.mjs             # compile the scripts PineTS failed on with Tradi
 
 The PineTS version is pinned in `package.json`. To test another release or a local build, change that dependency (for example `"pinets": "file:../PineTS"`).
 
+## Checking a PineTS change for regressions
+
+This runs every scraped indicator against an unmodified PineTS build and against a patched one, then compares the output.
+
+```sh
+# Build each PineTS checkout (run inside the checkout)
+FORMAT=es BUILD=dev npx rollup -c ./rollup.config.js
+
+# Baseline: run the unmodified build twice. Scripts whose output differs between
+# the two runs (timenow, math.random) are left out of the value comparison.
+REPORT_NAME=runs/base-a PINETS_MODULE=../PineTS/dist/pinets.dev.es.js bun run.mjs
+REPORT_NAME=runs/base-b PINETS_MODULE=../PineTS/dist/pinets.dev.es.js bun run.mjs
+
+# Candidate: the patched build
+REPORT_NAME=runs/candidate PINETS_MODULE=../PineTS-fix/dist/pinets.dev.es.js bun run.mjs
+
+bun compare.mjs runs/base-a.json runs/candidate.json --flaky runs/base-b.json
+```
+
+The first run caches market data in `cache/`, so every later run uses identical bars. Each script's output is fingerprinted: every plot value and drawing object, at 10 significant digits. `compare.mjs` exits with code 1 if a script that ran before now fails, or if its output values changed.
+
 ## Contents
 
 | Path | What it does |
@@ -29,6 +50,8 @@ The PineTS version is pinned in `package.json`. To test another release or a loc
 | `scrape.mjs` | Fetches TradingView's popular open-source indicator list (API caps at 1000) and each script's source |
 | `run.mjs` | Runs every scraped script through PineTS in its own process (with timeout); groups errors by signature in `report.md` |
 | `tv-compile.mjs` | Compiles scripts with TradingView's compiler to check whether an error also exists on TradingView |
+| `compare.mjs` | Compares two `run.mjs` reports and lists regressions, changed output values, fixed scripts and changed errors |
+| `cached-provider.mjs` | Caches Binance market data in `cache/`, so runs against different PineTS builds use identical bars |
 | `reports/` | Archived runs: indicator names, URLs and results. No script source |
 
 ## Results: pinets 0.9.33, 2026-09-11

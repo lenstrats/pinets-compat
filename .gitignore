@@ -3,6 +3,10 @@ node_modules/
 # Scraped TradingView sources belong to their authors (MPL, CC BY-NC-SA, ...): fetch locally with scrape.mjs
 scripts/
 
+# Cached Binance market data and differential runs (baseline vs candidate builds)
+cache/
+runs/
+
 # Latest-run outputs; archived copies live in reports/
 report.md
 report.json
