@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(request.financial(syminfo.tickerid, "TOTAL_REVENUE", "FQ", ignore_invalid_symbol = true))

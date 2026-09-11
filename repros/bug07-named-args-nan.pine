@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(ta.sma(source = close, length = 5))

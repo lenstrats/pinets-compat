@@ -1,0 +1,4 @@
+//@version=6
+indicator("repro")
+method dbl(float x) => x * 2
+plot(close.dbl())

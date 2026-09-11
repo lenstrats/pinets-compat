@@ -1,0 +1,6 @@
+//@version=6
+indicator("repro")
+if barstate.islast
+    l = label.new(bar_index, high, "x")
+    label.set_text_font_family(l, font.family_monospace)
+plot(close)

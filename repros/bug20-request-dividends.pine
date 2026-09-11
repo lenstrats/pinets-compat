@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(request.dividends(syminfo.tickerid, dividends.gross, ignore_invalid_symbol = true))

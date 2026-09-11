@@ -1,0 +1,5 @@
+//@version=6
+indicator("repro")
+x = close
+     + open
+plot(x)

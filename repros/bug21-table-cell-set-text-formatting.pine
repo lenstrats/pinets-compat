@@ -1,0 +1,7 @@
+//@version=6
+indicator("repro")
+var t = table.new(position.top_right, 1, 1)
+if barstate.islast
+    table.cell(t, 0, 0, "x")
+    table.cell_set_text_formatting(t, 0, 0, text.format_bold)
+plot(close)

@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(request.currency_rate("EUR", "USD"))

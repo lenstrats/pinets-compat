@@ -1,0 +1,2162 @@
+{
+  "checkedAt": "2026-09-11T08:51:21.217Z",
+  "report": "report.json",
+  "rows": [
+    {
+      "rank": 9,
+      "name": "COT TRADERS NET (COCOSTA)",
+      "url": "https://www.tradingview.com/script/SFevrTNB-COT-TRADERS-NET-COCOSTA/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 13:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 12,
+      "name": "Market Effort Response Profile",
+      "url": "https://www.tradingview.com/script/OX7Do7Ln-Market-Effort-Response-Profile/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 22 is out of bounds, array size is 22.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 18,
+      "name": "FrenchFinance_Funding v0.1",
+      "url": "https://www.tradingview.com/script/eZHI68wL-FrenchFinance-Funding-v0-1/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 10:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 20,
+      "name": "ORB 15 Break + Retest Confirmation",
+      "url": "https://www.tradingview.com/script/gJlFeYpq-ORB-15-Break-Retest-Confirmation/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 21,
+      "name": "Session Breakout Context",
+      "url": "https://www.tradingview.com/script/yl96pAod-Session-Breakout-Context/",
+      "pinetsCategory": "timeout",
+      "pinetsError": "timeout after 120s",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 23,
+      "name": "SpxSnipper - Intraday Candle vs Daily ATR",
+      "url": "https://www.tradingview.com/script/gy3ofr3U-SpxSnipper-Intraday-Candle-vs-Daily-ATR/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 24,
+      "name": "Advanced kNN Dip Pattern [The Quant Science]",
+      "url": "https://www.tradingview.com/script/Wqeqnvo8-Advanced-kNN-Dip-Pattern-The-Quant-Science/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 4:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 28,
+      "name": "Balanced Price Range (M1D)",
+      "url": "https://www.tradingview.com/script/5Unzvin8-Balanced-Price-Range-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p91, p92)', 'label.set_text_font_family' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 32,
+      "name": "Market Regime - Ranging or Trending",
+      "url": "https://www.tradingview.com/script/jnl0nPhV-Market-Regime-Ranging-or-Trending/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got OPERATOR at 12:16",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 42,
+      "name": "Time Cycle Vertical Line",
+      "url": "https://www.tradingview.com/script/CmOxKxWR-Time-Cycle-Vertical-Line/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 43,
+      "name": "MTF Liquidity Stack (Zeiierman)",
+      "url": "https://www.tradingview.com/script/s58bl2zF-MTF-Liquidity-Stack-Zeiierman/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "$.get($.var.glb1_tr, 0)?.get?.(1).trackWick is not a function. (In '$.get($.var.glb1_tr, 0)?.get?.(1).trackWick(temp_220)', '$.get($.var.glb1_tr, 0)?.get?.(1).trackWick' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 47,
+      "name": "Modern Squeeze Momentum [GBB]",
+      "url": "https://www.tradingview.com/script/BPermj6R-Modern-Squeeze-Momentum-GBB/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "e.slice is not a function. (In 'e.slice(-1)', 'e.slice' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 51,
+      "name": "MAD Adaptive Trend Score [BackQuant]",
+      "url": "https://www.tradingview.com/script/PlQjuEoQ-MAD-Adaptive-Trend-Score-BackQuant/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "chart.fg_color.transp is not a function. (In 'chart.fg_color.transp(50)', 'chart.fg_color.transp' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 59,
+      "name": "Parabolic SAR Constraint Kinematics & Run Geometry",
+      "url": "https://www.tradingview.com/script/MvAShOX5-Parabolic-SAR-Constraint-Kinematics-Run-Geometry/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "table.cell_set_text_formatting is not a function. (In 'table.cell_set_text_formatting(p846, p847, p848, p849)', 'table.cell_set_text_formatting' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 61,
+      "name": "Volume Profile Breakout Continuation",
+      "url": "https://www.tradingview.com/script/JoK0u4ld-Volume-Profile-Breakout-Continuation/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Cannot call 'array.push' with argument 'value'='[object Object]'. An argument of 'literal object' type was used but a 'float' is expected.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 65,
+      "name": "Auto Harmonic Patterns [AFD]",
+      "url": "https://www.tradingview.com/script/2MvG5H7T-Auto-Harmonic-Patterns-AFD/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index -1 is out of bounds, array size is 0.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 66,
+      "name": "One Minute Algo Run  Enhanced v6 sunny",
+      "url": "https://www.tradingview.com/script/R6kiiZaJ-One-Minute-Algo-Run-Enhanced-v6-sunny/",
+      "pinetsCategory": "timeout",
+      "pinetsError": "timeout after 120s",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 68,
+      "name": "OB + SD MTF Overlap",
+      "url": "https://www.tradingview.com/script/350aeMoG/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 74,
+      "name": "Volume Delta Footprint Zones Heatmap",
+      "url": "https://www.tradingview.com/script/IH7fTS3Z-Volume-Delta-Footprint-Zones-Heatmap/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.footprint is not a function. (In 'request.footprint(p25, p26)', 'request.footprint' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 79,
+      "name": "Tech Leadership Map+ [Herman]",
+      "url": "https://www.tradingview.com/script/miu0UG9g-Tech-Leadership-Map-Herman/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token COMMA ',' at 401:52",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 87,
+      "name": "VIKING + AXE & SHIELD",
+      "url": "https://www.tradingview.com/script/Q08e9lFo-VIKING-AXE-SHIELD/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.seed is not a function. (In 'request.seed(p265, p266, p267)', 'request.seed' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 91,
+      "name": "Multi-Timeframe Trend & Alignment",
+      "url": "https://www.tradingview.com/script/G50CVAaK-Multi-Timeframe-Trend-Alignment/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 96,
+      "name": "ERL x IRL PO3 (M1D)",
+      "url": "https://www.tradingview.com/script/bmYj6daL-ERL-x-IRL-PO3-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p255, p256)', 'label.set_text_font_family' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 3
+    },
+    {
+      "rank": 99,
+      "name": "Quarter Vertical Start Lines - New York",
+      "url": "https://www.tradingview.com/script/BmfNY6zf-Quarter-Vertical-Start-Lines-New-York/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 107,
+      "name": "QC Radar - Multi-Timeframe Price Action [QuantCrawler]",
+      "url": "https://www.tradingview.com/script/RgnRFvLE-QC-Radar-Multi-Timeframe-Price-Action-QuantCrawler/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "HTF 1 must be higher than, and an exact multiple of, the chart timeframe.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 116,
+      "name": "Algogram Trend Identifier",
+      "url": "https://www.tradingview.com/script/djcCXQK0-Algogram-Trend-Identifier/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 119,
+      "name": " ATK/DEF  Temporal Dual-Axis Market Engine",
+      "url": "https://www.tradingview.com/script/jbcXSkpL/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 6
+    },
+    {
+      "rank": 120,
+      "name": "KIRON Universal Pattern Engine ",
+      "url": "https://www.tradingview.com/script/dYZVyZoV-KIRON-Universal-Pattern-Engine/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 794:10",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 123,
+      "name": " ATK/DEF  Temporal Session State Engine",
+      "url": "https://www.tradingview.com/script/LGjKJWvJ/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 6
+    },
+    {
+      "rank": 127,
+      "name": "Equalhigh Fair Value & Upside",
+      "url": "https://www.tradingview.com/script/EKSezF8R-Equalhigh-Fair-Value-Upside/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.financial is not a function. (In 'request.financial(p74, p75, p76, p78)', 'request.financial' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 130,
+      "name": "Zig Zag",
+      "url": "https://www.tradingview.com/script/VXMf7uwJ-Zig-Zag/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 4:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 131,
+      "name": "24-hour Volume",
+      "url": "https://www.tradingview.com/script/DtpDJE1H-24-hour-Volume/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 4:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 136,
+      "name": "Session Value Map",
+      "url": "https://www.tradingview.com/script/LhYuLFnL-Session-Value-Map/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 40 is out of bounds, array size is 40.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 137,
+      "name": "Agreed Upon DOL",
+      "url": "https://www.tradingview.com/script/41H9PF1K-Agreed-Upon-DOL/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_1, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 139,
+      "name": "SPY Position Helper v1",
+      "url": "https://www.tradingview.com/script/AC5HkrwL-SPY-Position-Helper-v1/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Use a chart timeframe below the context timeframes. This indicator is intended for a 1-minute SPY chart.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 147,
+      "name": "Pivot Points | Falcon AI",
+      "url": "https://www.tradingview.com/script/3q42DGR6-Pivot-Points-Falcon-AI/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got OPERATOR at 19:12",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 148,
+      "name": "TP/SL Signals",
+      "url": "https://www.tradingview.com/script/iAB4iR7A-tp-sl-signals/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected RBRACKET but got COMMA at 83:14",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 151,
+      "name": " Memory Match  Trader Edition",
+      "url": "https://www.tradingview.com/script/A6pTxj1O-Memory-Match-Trader-Edition/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index -1 is out of bounds, array size is 0.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 164,
+      "name": "ENIGMA TGIF ",
+      "url": "https://www.tradingview.com/script/zVH8Xzd3-ENIGMA-TGIF/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 168,
+      "name": "NSE Relative Strength Ranking [KG]",
+      "url": "https://www.tradingview.com/script/wqmDYgyA-NSE-Relative-Strength-Ranking-KG/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Cannot call 'array.set' with argument 'value'='undefined'. An argument of 'literal undefined' type was used but a 'float' is expected.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 12
+    },
+    {
+      "rank": 172,
+      "name": "Equalhigh True FVG Scanner",
+      "url": "https://www.tradingview.com/script/Y5IbwnEo-Equalhigh-True-FVG-Scanner/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "e.slice is not a function. (In 'e.slice(-1)', 'e.slice' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 174,
+      "name": "52 Week High/Low Offset Screener",
+      "url": "https://www.tradingview.com/script/48vB0ple/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "offsetWeeks is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 175,
+      "name": "52 Week High/Low (Current & Offset)",
+      "url": "https://www.tradingview.com/script/R7YAnkjH/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "offsetWeeks is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 177,
+      "name": "CISD Order Block+ (M1D)",
+      "url": "https://www.tradingview.com/script/fKX9evIH-CISD-Order-Block-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "ORIGIN_MAX is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 179,
+      "name": "AMD Po3 with Live Edge Stats WillyAlgoTrader  Version OrGa",
+      "url": "https://www.tradingview.com/script/UxVwdeN2/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "HTF bias timeframe must be greater than or equal to the chart timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 181,
+      "name": "ZigZag Break - Phase 3 Toggle Sync V6 (Display Only)",
+      "url": "https://www.tradingview.com/script/ctqeDaTn/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_2, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 1
+    },
+    {
+      "rank": 184,
+      "name": "Global Net Liquidity (5-Bank)",
+      "url": "https://www.tradingview.com/script/ULZmBjXb-Global-Net-Liquidity-5-Bank/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 187,
+      "name": "Dual-Phase Reversal by DGT",
+      "url": "https://www.tradingview.com/script/cmFOrVlp-Dual-Phase-Reversal-by-DGT/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token COMMA ',' at 47:55",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 191,
+      "name": "CORNELUS LA PIRAMIDE",
+      "url": "https://www.tradingview.com/script/GHZfDGjS-CORNELUS-LA-PIRAMIDE/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.currency_rate is not a function. (In 'request.currency_rate(p14, p15)', 'request.currency_rate' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 192,
+      "name": "Opening Range Breakout [ITA]",
+      "url": "https://www.tradingview.com/script/1l4KG2VP-Opening-Range-Breakout-ITA/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 194,
+      "name": "MTF Supply & Demand (PropFirmGorilla)",
+      "url": "https://www.tradingview.com/script/dQKLMDeG-MTF-Supply-Demand-PropFirmGorilla/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 195,
+      "name": "Relative Volume Candles & Narrow Ranges",
+      "url": "https://www.tradingview.com/script/Pkgxgdm6-Relative-Volume-Candles-Narrow-Ranges/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 199,
+      "name": "Heikin Ashi Lag Meter [BSL]",
+      "url": "https://www.tradingview.com/script/t25S8iqq-Heikin-Ashi-Lag-Meter-BSL/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 174:5",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 203,
+      "name": "Minimalistic Po3 (M1D)",
+      "url": "https://www.tradingview.com/script/5euQMqvk-Minimalistic-Po3-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p107, p108)', 'label.set_text_font_family' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 204,
+      "name": "Hourly Alpha Profile Terminal [The Quant Science]",
+      "url": "https://www.tradingview.com/script/qRYFrOJy-Hourly-Alpha-Profile-Terminal-The-Quant-Science/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Column index 0 is out of bounds, matrix has 0 columns.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 205,
+      "name": "ICT Silver Bullet",
+      "url": "https://www.tradingview.com/script/yxRodYFg-ICT-Silver-Bullet/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 4
+    },
+    {
+      "rank": 212,
+      "name": "The Distilled HTF PO3",
+      "url": "https://www.tradingview.com/script/UMNF5h9P-The-Distilled-HTF-PO3/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 4 is out of bounds, array size is 4.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 221,
+      "name": "Momentum Peak Breakout-Pro [Saheewin]",
+      "url": "https://www.tradingview.com/script/oE55X9Fa-Momentum-Peak-Breakout-Pro-Saheewin/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 338:6",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 233,
+      "name": "Bias Detector Terminal [The Quant Science]",
+      "url": "https://www.tradingview.com/script/ZW5kc0FI-Bias-Detector-Terminal-The-Quant-Science/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "🔴 [BIAS TERMINAL ERROR]: Requires DAILY (D) chart context.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 242,
+      "name": "Multi-Timeframe MA Forecast",
+      "url": "https://www.tradingview.com/script/A2tQnlxC-Multi-Timeframe-MA-Forecast/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 186:35",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 244,
+      "name": "[Chrona] Opening Range Breakout",
+      "url": "https://www.tradingview.com/script/S1bnZOYx-Chrona-Opening-Range-Breakout/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 245,
+      "name": "Global Cash Market Open Close Handoff Sequence",
+      "url": "https://www.tradingview.com/script/dizubEmQ-Global-Cash-Market-Open-Close-Handoff-Sequence/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 246,
+      "name": "Book Value & Tangible Book Value",
+      "url": "https://www.tradingview.com/script/niG33CeK-Book-Value-Tangible-Book-Value/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.financial is not a function. (In 'request.financial(p2, p3, p4, p5)', 'request.financial' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 247,
+      "name": "Cash Runway & Solvency",
+      "url": "https://www.tradingview.com/script/9VO9SAJ9-Cash-Runway-Solvency/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.financial is not a function. (In 'request.financial(p2, p3, p4, p5)', 'request.financial' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 249,
+      "name": "Smooths Session Volume Profile",
+      "url": "https://www.tradingview.com/script/h8PbA0uU-Smooths-Session-Volume-Profile/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 10:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 258,
+      "name": "Buy-Sell with Adaptive Market Intelligence Engine",
+      "url": "https://www.tradingview.com/script/rrwlLVT9-Buy-Sell-with-Adaptive-Market-Intelligence-Engine/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Higher Timeframe must be greater than current chart timeframe.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 259,
+      "name": "Seasonality (10Y vs 20Y Swing)",
+      "url": "https://www.tradingview.com/script/FmnV7HI5-Seasonality-10Y-vs-20Y-Swing/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Column index 8 is out of bounds, matrix has 0 columns.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 260,
+      "name": "Trade Coach-Journal",
+      "url": "https://www.tradingview.com/script/bJdRd5Gd-Trade-Coach-Journal/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Cannot call 'array.set' with argument 'value'='1804362904.5'. An argument of 'literal number' type was used but a 'int' is expected.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 265,
+      "name": "IPDA Year Map (M1D)",
+      "url": "https://www.tradingview.com/script/9479px86-IPDA-Year-Map-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.time, 0)[20]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 270,
+      "name": "Failed Auction Detector ",
+      "url": "https://www.tradingview.com/script/rDboLLir-Failed-Auction-Detector/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 287:10",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 272,
+      "name": "Position Size V95",
+      "url": "https://www.tradingview.com/script/k3aHxOe4-Position-Size-V95/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 273,
+      "name": "Kamote v1.0",
+      "url": "https://www.tradingview.com/script/r3oO0KYi-Kamote-v1-0/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "i is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 275,
+      "name": "Momentum Candle By Skyrooth",
+      "url": "https://www.tradingview.com/script/G22QzFe9-Momentum-Candle-By-Skyrooth/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 276,
+      "name": "Variance-Weighted Regression Trend [BackQuant]",
+      "url": "https://www.tradingview.com/script/9KcWvaBf-Variance-Weighted-Regression-Trend-BackQuant/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 4:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 277,
+      "name": "Cross-Asset Session Impulse Engine [PhenLabs]",
+      "url": "https://www.tradingview.com/script/j1gHuCnQ-Cross-Asset-Session-Impulse-Engine-PhenLabs/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 279,
+      "name": "Level survival tracker",
+      "url": "https://www.tradingview.com/script/uqxo7Vc2-Level-survival-tracker/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "The chart timeframe must divide both the session start and the session length exactly, so that bars align to the session boundaries. For a 09:30 to 16:00 session use 1, 2, 3, 5, 6, 10, 15, or 30 minutes.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 287,
+      "name": "Order Flow Bar Statistics [QuantAlgo]",
+      "url": "https://www.tradingview.com/script/kByFhbit-Order-Flow-Bar-Statistics-QuantAlgo/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.footprint is not a function. (In 'request.footprint(p198)', 'request.footprint' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 290,
+      "name": "HTF FVG Tracker (M1D)",
+      "url": "https://www.tradingview.com/script/N7zllX8j-HTF-FVG-Tracker-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 291,
+      "name": "MA Suite",
+      "url": "https://www.tradingview.com/script/7PW7EhHp-MA-Suite/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 293,
+      "name": "Hide CAS candles post 3.15 PM",
+      "url": "https://www.tradingview.com/script/FwtrpGvL-Hide-CAS-candles-post-3-15-PM/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Session truncation @ 15:15 runs only on NSE/BSE cash or index symbols whose underlying has an F&O contract - not on the F&O contract itself.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 299,
+      "name": "FCP | Market Pulse | Multi Symbol Volatility Scanner",
+      "url": "https://www.tradingview.com/script/DPvrBqMm-FCP-Market-Pulse-Multi-Symbol-Volatility-Scanner/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_1, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 301,
+      "name": "Zen [LTW] v0.5",
+      "url": "https://www.tradingview.com/script/w1GEXEwn/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index -1 is out of bounds, array size is 0.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 302,
+      "name": "Fibonacci Gravity Clusters [GBB]",
+      "url": "https://www.tradingview.com/script/Xms6vNhu-Fibonacci-Gravity-Clusters-GBB/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "len1 is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 305,
+      "name": "Session block profile",
+      "url": "https://www.tradingview.com/script/saANzxEB-Session-block-profile/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Block length must be at least one chart bar long.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 307,
+      "name": "Time-of-day volume normalizer",
+      "url": "https://www.tradingview.com/script/XfIwYG1Z-Time-of-day-volume-normalizer/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Session start and length must align exactly with the chart timeframe. For a 09:30 to 16:00 session use 1, 2, 3, 5, 6, 10, 15, or 30 minutes.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 310,
+      "name": "Aurora_Channel_V1",
+      "url": "https://www.tradingview.com/script/FojCZ7FN-Aurora-Channel-V1/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Identifier '_' has already been declared (203:24)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 311,
+      "name": "Fundamental Valuation Snapshot [FVS]",
+      "url": "https://www.tradingview.com/script/Zh6g7Niu-Fundamental-Valuation-Snapshot-FVS/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.financial is not a function. (In 'request.financial(p50, p51, p52, p53)', 'request.financial' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 313,
+      "name": "SDCA System | TR",
+      "url": "https://www.tradingview.com/script/x6vEUyW9-SDCA-System-TR/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 10:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 317,
+      "name": "Precision PushBack [MohaveTrader]",
+      "url": "https://www.tradingview.com/script/Nl0U9MU2-Precision-PushBack-MohaveTrader/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "zones is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 318,
+      "name": "The Magnet Model",
+      "url": "https://www.tradingview.com/script/RMmQHRj2-The-Magnet-Model/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token NEWLINE '",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 322,
+      "name": "Premium + Discount Ranges (M1D)",
+      "url": "https://www.tradingview.com/script/0jee3HkL-Premium-Discount-Ranges-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p241, p242)', 'label.set_text_font_family' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 323,
+      "name": "Trinity ATR Levels",
+      "url": "https://www.tradingview.com/script/eVg35p7Z-Trinity-ATR-Levels/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "period_index is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 324,
+      "name": "Consolidation DNA | Flux Charts",
+      "url": "https://www.tradingview.com/script/bSTxT6Qh-Consolidation-DNA-Flux-Charts/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Cannot call 'array.set' with argument 'value'='339.01233427'. An argument of 'literal number' type was used but a 'int' is expected.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 328,
+      "name": "OBV Structure Oscillator [OBVSO]",
+      "url": "https://www.tradingview.com/script/52l4Xtsu-OBV-Structure-Oscillator-OBVSO/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 336,
+      "name": "Intraday Price Action [MaximoPartners]",
+      "url": "https://www.tradingview.com/script/HUo594K8-Intraday-Price-Action-MaximoPartners/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 338,
+      "name": "Reversal OB Zones",
+      "url": "https://www.tradingview.com/script/UpDcQdvL/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "$.get(na, 0) is not a function. (In '$.get(na, 0)($.get($$, 0).let.fn2_p2)', '$.get(na, 0)' is an instance of je)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 343,
+      "name": "MarketMaulers Auto Trendlines",
+      "url": "https://www.tradingview.com/script/rAp1tPZr-MarketMaulers-Auto-Trendlines/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 231:27",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 344,
+      "name": "Normalize RSI | TR",
+      "url": "https://www.tradingview.com/script/G6doUSCg-Normalize-RSI-TR/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 10:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 346,
+      "name": "Apollo Wave X-Lunar",
+      "url": "https://www.tradingview.com/script/uUEcDUMX/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 8:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 347,
+      "name": "MTF VWAP + POC Fan",
+      "url": "https://www.tradingview.com/script/k0xmmCQL-MTF-VWAP-POC-Fan/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 348,
+      "name": "TEWMA Momentum Cloud - [JTCAPITAL]",
+      "url": "https://www.tradingview.com/script/GyPVnzxI-TEWMA-Momentum-Cloud-JTCAPITAL/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 20:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 350,
+      "name": "Volatility-Adaptive Moving Average | TR ",
+      "url": "https://www.tradingview.com/script/iT95bxFg-Volatility-Adaptive-Moving-Average-TR/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 10:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 351,
+      "name": "[Kpt-Ahab] Savings Plan IND",
+      "url": "https://www.tradingview.com/script/wIcaya2Q/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.dividends is not a function. (In 'request.dividends(p549, p550, p553)', 'request.dividends' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 353,
+      "name": "Pattern Atlas :  Geometric Indicator [AxeAlgo]",
+      "url": "https://www.tradingview.com/script/rTfR2FWV-Pattern-Atlas-Geometric-Indicator-AxeAlgo/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 7:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 354,
+      "name": "ICT Combined  Venom  Silver Bullet  Displacement Liquidity",
+      "url": "https://www.tradingview.com/script/HqNUEWvc-ICT-Combined-Venom-Silver-Bullet-Displacement-Liquidity/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 45:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 355,
+      "name": "Split VWAP",
+      "url": "https://www.tradingview.com/script/v2BhTtjK-Split-VWAP/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected RBRACKET but got COMMA at 406:12",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 356,
+      "name": "cephxs / CISD [base]",
+      "url": "https://www.tradingview.com/script/zzL17fzY-cephxs-CISD-base/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'p.stretch.end_close')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 362,
+      "name": "Macro Regime Dashboard",
+      "url": "https://www.tradingview.com/script/UgtyricM-Macro-Regime-Dashboard/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.earnings is not a function. (In 'request.earnings(p120, p121, p122)', 'request.earnings' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 372,
+      "name": "Converging Triangles [The_lurker]",
+      "url": "https://www.tradingview.com/script/USJwxdTS/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got STRING at 118:24",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 374,
+      "name": "DATEOFBIRTH Strategy)",
+      "url": "https://www.tradingview.com/script/w3aGz53j-DATEOFBIRTH-Strategy/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 376,
+      "name": "CISD Fractal HTF BY HDSXN ",
+      "url": "https://www.tradingview.com/script/tY6f7UAQ/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($$.let.if22_temp_2, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 1
+    },
+    {
+      "rank": 377,
+      "name": "SB/ISB  FVG/IFVG",
+      "url": "https://www.tradingview.com/script/2EGpJHMX/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "i is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 378,
+      "name": "TRUE OPEN AND OPENING PRICE BY HDSXN  ",
+      "url": "https://www.tradingview.com/script/9lGPRB9u/",
+      "pinetsCategory": "timeout",
+      "pinetsError": "timeout after 120s",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 379,
+      "name": "SMT by HDSXN",
+      "url": "https://www.tradingview.com/script/2NS1rLLz/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 1 is out of bounds, array size is 1.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 381,
+      "name": "Random Candles",
+      "url": "https://www.tradingview.com/script/w2kivT79-Random-Candles/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 382,
+      "name": "LiqSweep+iFVG indicator",
+      "url": "https://www.tradingview.com/script/NsebZ0O6-LiqSweep-iFVG-indicator/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Cannot call 'array.push' with argument 'value'='[object Object]'. An argument of 'literal object' type was used but a 'float' is expected.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 384,
+      "name": "Liquidity Radar Engine Pools Sweeps and Next Draw",
+      "url": "https://www.tradingview.com/script/eWnG3bJU-Liquidity-Radar-Engine-Pools-Sweeps-and-Next-Draw/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 329:44",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 393,
+      "name": "Sweep IFVG (M1D)",
+      "url": "https://www.tradingview.com/script/XXWVc6m3-Sweep-IFVG-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p133, p134)', 'label.set_text_font_family' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 396,
+      "name": "Ghost Pattern Finder ",
+      "url": "https://www.tradingview.com/script/IB0s1eHZ-Ghost-Pattern-Finder/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 400,
+      "name": "TTP IMB - Unfilled Imbalances",
+      "url": "https://www.tradingview.com/script/V27gem2X-TTP-IMB-Unfilled-Imbalances/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index -1 is out of bounds, array size is 0.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 406,
+      "name": "Blended Momentum Oscillator",
+      "url": "https://www.tradingview.com/script/CA6LjhT5/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 409,
+      "name": "SHM - Dual-WMA Momentum Oscillator",
+      "url": "https://www.tradingview.com/script/2dfGFrVX-SHM-Dual-WMA-Momentum-Oscillator/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 412,
+      "name": "MarketMaulers Volume Profile",
+      "url": "https://www.tradingview.com/script/1spDPQWg-MarketMaulers-Volume-Profile/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 155:29",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 415,
+      "name": "R-Level Targets",
+      "url": "https://www.tradingview.com/script/sBrjZ8Am-R-Level-Targets/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index -1 is out of bounds, array size is 0.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 416,
+      "name": "Premium Map Pro: Bayesian Probability Fan, Order Blocks",
+      "url": "https://www.tradingview.com/script/yvpJO0CY/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 421,
+      "name": "IB FIB CUCAP",
+      "url": "https://www.tradingview.com/script/T1AadQ7m-IB-FIB-CUCAP/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 425,
+      "name": "Unicorn Model ",
+      "url": "https://www.tradingview.com/script/A9LMSD0g-Unicorn-Model/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p173, p174)', 'label.set_text_font_family' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 428,
+      "name": "Daily Relative Volume+",
+      "url": "https://www.tradingview.com/script/7FjMNVUk-Daily-Relative-Volume/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Relative Volume+ is designed for a 1D chart.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 429,
+      "name": "Pattern Atlas: Candlestick Indicator [AxeAlgo]",
+      "url": "https://www.tradingview.com/script/mQufFIYf-Pattern-Atlas-Candlestick-Indicator-AxeAlgo/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 7:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 441,
+      "name": "HTF Structure Lens",
+      "url": "https://www.tradingview.com/script/6f7Kw2ms-HTF-Structure-Lens/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid session specification: \"america/New_York\"",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 6
+    },
+    {
+      "rank": 444,
+      "name": "MAD Volatility Trail [BackQuant]",
+      "url": "https://www.tradingview.com/script/H9JdI5rn-MAD-Volatility-Trail-BackQuant/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 4:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 451,
+      "name": "Multi EMA SMA Pro - 5/13/20/50/100/200 - MTF",
+      "url": "https://www.tradingview.com/script/B3xvdK72-Multi-EMA-SMA-Pro-5-13-20-50-100-200-MTF/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_2, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 20
+    },
+    {
+      "rank": 458,
+      "name": "ICT Kill Zones and Session High Low",
+      "url": "https://www.tradingview.com/script/8OMkwGXn-ICT-Kill-Zones-and-Session-High-Low/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "LabelSpot is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 461,
+      "name": "6/7 Currency Breakout + 4/7 Hold",
+      "url": "https://www.tradingview.com/script/qNpQ9GYs-6-7-Currency-Breakout-4-7-Hold/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 462,
+      "name": "Key Levels - Cash Market",
+      "url": "https://www.tradingview.com/script/gB4SPKBZ-Key-Levels-Cash-Market/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 468,
+      "name": "Sattam | Gann Tools",
+      "url": "https://www.tradingview.com/script/HuFPQogO-Sattam-Gann-Tools/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 470,
+      "name": "Supply Demand AI [PickMyTrade]",
+      "url": "https://www.tradingview.com/script/mN8VuA7d-Supply-Demand-AI-PickMyTrade/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got INDENT at 217:29",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 475,
+      "name": "NASDAQ Pre-Market Range Sweep [josseliani]",
+      "url": "https://www.tradingview.com/script/oN62W2RT-NASDAQ-Pre-Market-Range-Sweep-josseliani/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Use an M1, M5 or M15 chart. Signal logic is calculated on M1; M5/M15 show cloned M1 markers only.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 476,
+      "name": "Sweep & Reject Pin Bars",
+      "url": "https://www.tradingview.com/script/CSckeTDY-Sweep-Reject-Pin-Bars/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 478,
+      "name": "Volume Profile Fixed/Range [1CG]",
+      "url": "https://www.tradingview.com/script/x2pcVS1a-Volume-Profile-Fixed-Range-1CG/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 23:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 483,
+      "name": "Kill Zones (lstrihic)",
+      "url": "https://www.tradingview.com/script/dw8zDTWw-Kill-Zones-lstrihic/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "z.update is not a function. (In 'z.update()', 'z.update' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 484,
+      "name": "Custom Key Levels",
+      "url": "https://www.tradingview.com/script/RWzw413k-Custom-Key-Levels/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 488,
+      "name": "CRT TCT",
+      "url": "https://www.tradingview.com/script/x7oQy4VG/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Cannot call \"int\" with argument \"x\"=\"[object Object]NaN\". An argument of \"literal string\" type was used but a \"simple int\" is expected.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 489,
+      "name": "Gypsy VWAP Map v0.30 Premium TradingView Req.",
+      "url": "https://www.tradingview.com/script/Wl9x7fWz-Gypsy-VWAP-Map-v0-30-Premium-TradingView-Req/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 490,
+      "name": "Gypsy VWAP Map v0.30 1M NonPremium TV version",
+      "url": "https://www.tradingview.com/script/8YodMcwh-Gypsy-VWAP-Map-v0-30-1M-NonPremium-TV-version/",
+      "pinetsCategory": "timeout",
+      "pinetsError": "timeout after 120s",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 492,
+      "name": "Dynamic Range Tool [vault]",
+      "url": "https://www.tradingview.com/script/8ZR4y5k8-Dynamic-Range-Tool-vault/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 493,
+      "name": "Market Profile TPO [vault]",
+      "url": "https://www.tradingview.com/script/VlRSQGzY-Market-Profile-TPO-vault/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 100 is out of bounds, array size is 100.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 494,
+      "name": "KERNEL BANDS [vault]",
+      "url": "https://www.tradingview.com/script/eZm67TZ4-KERNEL-BANDS-vault/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_3, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 499,
+      "name": "ICT Equal Highs & Lows (EQH/EQL) Liquidity Pools",
+      "url": "https://www.tradingview.com/script/0qehowvK-ICT-Equal-Highs-Lows-EQH-EQL-Liquidity-Pools/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "ToleranceMode is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 500,
+      "name": "Oliver Kell - Master System",
+      "url": "https://www.tradingview.com/script/SmNMRIra-Oliver-Kell-Master-System/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.earnings is not a function. (In 'request.earnings(p322, p323, p324)', 'request.earnings' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 501,
+      "name": "HTF FVGs (UDT) [CantoLab]",
+      "url": "https://www.tradingview.com/script/jGvUQ2h0-HTF-FVGs-UDT-CantoLab/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 510,
+      "name": "FVG Detector (UDT) [CantoLab]",
+      "url": "https://www.tradingview.com/script/BoXuXgzt-FVG-Detector-UDT-CantoLab/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 513,
+      "name": "Liquidity Sweep Quality Engine [algotim]",
+      "url": "https://www.tradingview.com/script/zD4GqLWC-Liquidity-Sweep-Quality-Engine-algotim/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected COLON but got COMMENT at 174:76",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 518,
+      "name": "EVA Ai + POC, Liquidity & Smart Money",
+      "url": "https://www.tradingview.com/script/ADPEnnw7-eva-ai-poc-liquidity-smart-money/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'i.size')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 533,
+      "name": "CRT Engine [vault]",
+      "url": "https://www.tradingview.com/script/cxsWjhzc-CRT-Engine-vault/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected RBRACKET but got COMMA at 67:8",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 6
+    },
+    {
+      "rank": 535,
+      "name": "Equal Highs and Lows with Relative [CantoLab]",
+      "url": "https://www.tradingview.com/script/3BeHr2qT-Equal-Highs-and-Lows-with-Relative-CantoLab/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 536,
+      "name": "OSF",
+      "url": "https://www.tradingview.com/script/K4zaGkLy-OSF/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "$.get($.var.glb1_htfCandles, 0)?.first?.().update is not a function. (In '$.get($.var.glb1_htfCandles, 0)?.first?.().update($.get(high, 0), $.get(low, 0), $.get(close, 0), $.get(bar_index, 0))', '$.get($.var.glb1_htfCandles, 0)?.first?.().u",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 537,
+      "name": "ICT Everything v2",
+      "url": "https://www.tradingview.com/script/Isn8Ma7q-ICT-Everything-v2/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "i.size is not a function. (In 'i.size(...r)', 'i.size' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 539,
+      "name": "MYND Fractal Support/Resistance Density Map [v1.4]",
+      "url": "https://www.tradingview.com/script/SCcF4BlS-MYND-Fractal-Support-Resistance-Density-Map-v1-4/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 3 is out of bounds, array size is 3.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 541,
+      "name": "Overnight Range & Trend-Day Probability ",
+      "url": "https://www.tradingview.com/script/mOIFHBMY-Overnight-Range-Trend-Day-Probability/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p426, p427)', 'label.set_text_font_family' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 546,
+      "name": "Round Number Nearest Level",
+      "url": "https://www.tradingview.com/script/eXVH2IfA-Round-Number-Nearest-Level/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected OPERATOR but got IDENTIFIER at 7:25",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 547,
+      "name": "Classical Auto Chart Patterns [AFD]",
+      "url": "https://www.tradingview.com/script/g5uim9n5-Classical-Auto-Chart-Patterns-AFD/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'nf.neck.p1')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 548,
+      "name": "SHM 8.0 Dual-WMA Momentum Oscillator",
+      "url": "https://www.tradingview.com/script/bvCXqWB7-SHM-8-0-Dual-WMA-Momentum-Oscillator/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 557,
+      "name": "Cross Asset Relative Strength Matrix [Pineify]",
+      "url": "https://www.tradingview.com/script/UL0fNWQ3-Cross-Asset-Relative-Strength-Matrix-Pineify/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.currency_rate is not a function. (In 'request.currency_rate(p188, p189, p190)', 'request.currency_rate' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 563,
+      "name": "KRV Adaptive Structure Canvas v1.2 [Trend / Levels / Patterns]",
+      "url": "https://www.tradingview.com/script/OYcfgrPs-KRV-Adaptive-Structure-Canvas-v1-2-Trend-Levels-Patterns/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 564,
+      "name": "ICT 15M Liquidity -> 5M Entry + Price",
+      "url": "https://www.tradingview.com/script/68e7iNCJ-ICT-15M-Liquidity-5M-Entry-Price/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 420:5",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 567,
+      "name": "DISTANCE % PH-PL MTF Dashboard ",
+      "url": "https://www.tradingview.com/script/Rmc1P15l-DISTANCE-PH-PL-MTF-Dashboard/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_3, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 6
+    },
+    {
+      "rank": 569,
+      "name": "Daily BB (Historical Plotting with RTH/ETH/24H)",
+      "url": "https://www.tradingview.com/script/gCwZe6Vs-Daily-BB-Historical-Plotting-with-RTH-ETH-24H/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 571,
+      "name": "New Highs/Lows Market Breadth",
+      "url": "https://www.tradingview.com/script/aeLgOovL-New-Highs-Lows-Market-Breadth/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected COLON but got NEWLINE at 703:30",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 4
+    },
+    {
+      "rank": 572,
+      "name": "Best ORB Strategy Detector + Entry Finder",
+      "url": "https://www.tradingview.com/script/z952ZVGe-Best-ORB-Strategy-Detector-Entry-Finder/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.close, 0)[1]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 14
+    },
+    {
+      "rank": 577,
+      "name": "Three Drives Pivot Scanner [Trishul]",
+      "url": "https://www.tradingview.com/script/lgNhcbwD-Three-Drives-Pivot-Scanner-Trishul/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 12 is out of bounds, array size is 12.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 580,
+      "name": "XAUUSD Psychological Levels 00/25/50/75",
+      "url": "https://www.tradingview.com/script/cx9Y0Jd7/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 581,
+      "name": "Forward Valuation Target",
+      "url": "https://www.tradingview.com/script/7Ii3OdUx/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.financial is not a function. (In 'request.financial(p71, p72, p73)', 'request.financial' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 582,
+      "name": "Master Weekly Vector Forex",
+      "url": "https://www.tradingview.com/script/v4lfPK1D-Master-Weekly-Vector-Forex/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 10:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 583,
+      "name": "Institutional Asset Quality Radar [BigBeluga]",
+      "url": "https://www.tradingview.com/script/uy5z2rZC-Institutional-Asset-Quality-Radar-BigBeluga/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "scale is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 584,
+      "name": "k-NN Lorentzian Supervised Learning [The Quant Science]",
+      "url": "https://www.tradingview.com/script/d6fBXXZa-k-NN-Lorentzian-Supervised-Learning-The-Quant-Science/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 7:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 587,
+      "name": "AM - 7h Session Candles",
+      "url": "https://www.tradingview.com/script/MXeLV0hq-AM-7h-Session-Candles/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index -1 is out of bounds, array size is 0.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 589,
+      "name": "Adaptive T3 Hull [BackQuant]",
+      "url": "https://www.tradingview.com/script/to9JMbUI-Adaptive-T3-Hull-BackQuant/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 4:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 592,
+      "name": "Market State Router [Permutation + Eigenstructure]",
+      "url": "https://www.tradingview.com/script/UF3lTBqJ-Market-State-Router-Permutation-Eigenstructure/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 1225:14",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 596,
+      "name": "Premkt 5 15 30 Min",
+      "url": "https://www.tradingview.com/script/M92vyyv2-Premkt-5-15-30-Min/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid session specification: \"America/New_York\"",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 597,
+      "name": "Delta by Price [SVP Style]",
+      "url": "https://www.tradingview.com/script/pFBYCDUA-Delta-by-Price-SVP-Style/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 98 is out of bounds, array size is 98.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 599,
+      "name": "Machine Learning Statistics: kNN Win Rate vs Random Entries",
+      "url": "https://www.tradingview.com/script/XuIlozD8-Machine-Learning-Statistics-kNN-Win-Rate-vs-Random-Entries/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 622:26",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 604,
+      "name": "Highest Volume Candle @MaxMaserati",
+      "url": "https://www.tradingview.com/script/XEFQonB1-Highest-Volume-Candle-MaxMaserati/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.footprint is not a function. (In 'request.footprint(p58, p59)', 'request.footprint' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 615,
+      "name": "Multi-Confirmation Swing Indicator",
+      "url": "https://www.tradingview.com/script/DHyfjfPx-Multi-Confirmation-Swing-Indicator/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Identifier 'ema1' has already been declared (295:20)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 4
+    },
+    {
+      "rank": 616,
+      "name": "Initial Balance Auction Intelligence by DGT",
+      "url": "https://www.tradingview.com/script/ks2QGulb-Initial-Balance-Auction-Intelligence-by-DGT/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token COMMA ',' at 145:126",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 617,
+      "name": "Guassian Filtered TEWMA - [JTCAPITAL]",
+      "url": "https://www.tradingview.com/script/R9rxW2u2-Guassian-Filtered-TEWMA-JTCAPITAL/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 20:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 623,
+      "name": "HTF Zones D1 H3 H1",
+      "url": "https://www.tradingview.com/script/oUeyP8Vi-htf-zones-d1-h3-h1/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 625,
+      "name": "Triple VWAP - Session Weekly Monthly",
+      "url": "https://www.tradingview.com/script/dNHPV0gX-Triple-VWAP-Session-Weekly-Monthly/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 626,
+      "name": "Buyer vs Seller Control & Path of Least Resistance (MTF)",
+      "url": "https://www.tradingview.com/script/I8Tv43WR-Buyer-vs-Seller-Control-Path-of-Least-Resistance-MTF/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_2, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 628,
+      "name": "OTEFibWick",
+      "url": "https://www.tradingview.com/script/sAobkjMZ/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 4
+    },
+    {
+      "rank": 637,
+      "name": "Taught to Trade - Volatility Scanner (ATR%)",
+      "url": "https://www.tradingview.com/script/oSkPJDdQ-Taught-to-Trade-Volatility-Scanner-ATR/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'Kt.params[w][xr]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 641,
+      "name": "Session Sweep Concept [Achira Meegasthanne]",
+      "url": "https://www.tradingview.com/script/KBPImUAs-Session-Sweep-Concept-Achira-Meegasthanne/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating 'bx.bx.get_left')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 646,
+      "name": "Fabio Delta Volume Profile",
+      "url": "https://www.tradingview.com/script/6UCFG4mz-Fabio-Delta-Volume-Profile/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 98 is out of bounds, array size is 98.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 648,
+      "name": "Volume accumulation distribution dashboard",
+      "url": "https://www.tradingview.com/script/oizFDff1-Volume-accumulation-distribution-dashboard/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.dividends is not a function. (In 'request.dividends(p32, p33, p34)', 'request.dividends' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 650,
+      "name": "Scalp Lite + CHoCH",
+      "url": "https://www.tradingview.com/script/NFJfISiw-Scalp-Lite-CHoCH/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 30 is out of bounds, array size is 30.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 651,
+      "name": "ICT HTF FVGs",
+      "url": "https://www.tradingview.com/script/9A7WuqQO-ICT-HTF-FVGs/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_1, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 656,
+      "name": "The Deceit Signature",
+      "url": "https://www.tradingview.com/script/SOszrCYT/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 657,
+      "name": "Projected High/Low [Market Breakers]",
+      "url": "https://www.tradingview.com/script/4MwsdV1u-Projected-High-Low-Market-Breakers/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid session specification: \"extended\"",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 658,
+      "name": "BYO Pattern V1 [Trendoscope]",
+      "url": "https://www.tradingview.com/script/e2S2v4fl-BYO-Pattern-V1-Trendoscope/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 24:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 661,
+      "name": "Confluence Engine+",
+      "url": "https://www.tradingview.com/script/9pNHhcx6-Confluence-Engine/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got INDENT at 1436:28",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 662,
+      "name": "Fibonacci Path Profile [MantisAlgo]",
+      "url": "https://www.tradingview.com/script/BU7wGOjd-Fibonacci-Path-Profile-MantisAlgo/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index -3 is out of bounds, array size is 0.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 666,
+      "name": "Delta Profile  Multi-Anchor , Footprint Imbalance & Whale Tiers",
+      "url": "https://www.tradingview.com/script/A60uKbTq-Delta-Profile-Multi-Anchor-Footprint-Imbalance-Whale-Tiers/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 667,
+      "name": "Directional Bias, Flip & Continuation",
+      "url": "https://www.tradingview.com/script/dfjosrfn-Directional-Bias-Flip-Continuation/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 668,
+      "name": "Absorption Shelf  Dwell-Coil Reversal Levels",
+      "url": "https://www.tradingview.com/script/HWn4gTdW-Absorption-Shelf-Dwell-Coil-Reversal-Levels/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got OPERATOR at 1028:13",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 669,
+      "name": "Average RSI | TR",
+      "url": "https://www.tradingview.com/script/QJIczgLk-Average-RSI-TR/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 10:7",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 677,
+      "name": "BarrettFVG HTF Pivot Reaction Model",
+      "url": "https://www.tradingview.com/script/pEE621v3-BarrettFVG-HTF-Pivot-Reaction-Model/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "supLevels is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 679,
+      "name": "MSL Crypto Breadth",
+      "url": "https://www.tradingview.com/script/2ARcraNQ-MSL-Crypto-Breadth/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_1, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 684,
+      "name": "Liquidity Ladder+ (M1D)",
+      "url": "https://www.tradingview.com/script/jsGHNXN5-Liquidity-Ladder-M1D/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.glb1_temp_1, 0)[0]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 689,
+      "name": "CandelaCharts - Value Area Reversals",
+      "url": "https://www.tradingview.com/script/korzg0xR-CandelaCharts-Value-Area-Reversals/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "p.compute_profile is not a function. (In 'p.compute_profile($.get($.let.glb1_prof_rows, 0), $.get($.let.glb1_prof_va_pct, 0))', 'p.compute_profile' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 698,
+      "name": "SF Raw Anchored Return Lines",
+      "url": "https://www.tradingview.com/script/ha3r8YnY-SF-Raw-Anchored-Return-Lines/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Index 1 is out of bounds, array size is 1.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 704,
+      "name": "BarrettFVG Crossfire Entry Model",
+      "url": "https://www.tradingview.com/script/Akur9Vrp-BarrettFVG-Crossfire-Entry-Model/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "undefined is not an object (evaluating '$.get($.let.low, 0)[2]')",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    },
+    {
+      "rank": 706,
+      "name": "Repainting Statistics: Displayed vs Tradeable Win Rate",
+      "url": "https://www.tradingview.com/script/NkmqfEAK-Repainting-Statistics-Displayed-vs-Tradeable-Win-Rate/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "p is not defined",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 713,
+      "name": "Kevindicator",
+      "url": "https://www.tradingview.com/script/SlS2etSj-Kevindicator/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Invalid timeframe",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 7
+    },
+    {
+      "rank": 717,
+      "name": "TrendFusion Pro | Multi-MA + ADX + KAMA + VWAP Hariss 369",
+      "url": "https://www.tradingview.com/script/JCE7w2tU-TrendFusion-Pro-Multi-MA-ADX-KAMA-VWAP-Hariss-369/",
+      "pinetsCategory": "transpile error",
+      "pinetsError": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 166:9",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 718,
+      "name": "Footprint Delta Auction Map [BullByte]",
+      "url": "https://www.tradingview.com/script/73u5eagK-Footprint-Delta-Auction-Map-BullByte/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "HTF Resolution (60) must be strictly higher than the chart timeframe (60). Please select a higher HTF timeframe in the Higher Timeframe Filter settings.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 725,
+      "name": "MYND Command Center Screener v2.0",
+      "url": "https://www.tradingview.com/script/JKRoI9tT-MYND-Command-Center-Screener-v2-0/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "Cannot call 'array.push' with argument 'value'='undefined'. An argument of 'literal undefined' type was used but a 'float' is expected.",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 726,
+      "name": "MYND Ultimate Squeeze Confluence & Exit Dashboard v1.0",
+      "url": "https://www.tradingview.com/script/U849kwTO-MYND-Ultimate-Squeeze-Confluence-Exit-Dashboard-v1-0/",
+      "pinetsCategory": "runtime error",
+      "pinetsError": "request.earnings is not a function. (In 'request.earnings(p1208, p1209, p1212)', 'request.earnings' is undefined)",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 0
+    },
+    {
+      "rank": 729,
+      "name": "Automatic Wedge & Channel Detector",
+      "url": "https://www.tradingview.com/script/p4X1arBA-Automatic-Wedge-Channel-Detector/",
+      "pinetsCategory": "OK, no output",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "tvWarnings": 2
+    }
+  ]
+}

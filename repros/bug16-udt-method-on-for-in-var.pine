@@ -1,0 +1,10 @@
+//@version=6
+indicator("repro")
+type Zone
+    float lvl = 0.0
+method bump(Zone z) =>
+    z.lvl := close
+var zones = array.from(Zone.new())
+for z in zones
+    z.bump()
+plot(zones.get(0).lvl)

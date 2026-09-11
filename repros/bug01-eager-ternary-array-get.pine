@@ -1,0 +1,5 @@
+//@version=6
+indicator("repro")
+a = array.new<float>()
+x = array.size(a) > 0 ? array.get(a, 0) : 1.0
+plot(x)

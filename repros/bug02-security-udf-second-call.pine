@@ -1,0 +1,6 @@
+//@version=6
+indicator("repro")
+f(tf) => request.security(syminfo.tickerid, tf, close)
+a = f("240")
+b = f("D")
+plot(b)

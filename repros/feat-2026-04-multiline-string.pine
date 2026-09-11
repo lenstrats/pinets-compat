@@ -1,0 +1,5 @@
+//@version=6
+indicator("repro")
+string s = """line one
+line two"""
+plot(str.length(s))

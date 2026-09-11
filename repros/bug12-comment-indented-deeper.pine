@@ -1,0 +1,5 @@
+//@version=6
+indicator("repro")
+var float x = 1.0  // first part of a comment
+                  // second part
+plot(x)

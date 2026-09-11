@@ -1,0 +1,5 @@
+//@version=6
+indicator("repro")
+const int MAXB = 10
+f() => close[math.min(bar_index, MAXB)]
+plot(f())

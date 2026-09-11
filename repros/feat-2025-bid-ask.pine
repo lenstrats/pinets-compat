@@ -1,0 +1,4 @@
+//@version=6
+indicator("repro")
+plot(bid)
+plot(ask)

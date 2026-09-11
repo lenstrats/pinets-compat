@@ -1,0 +1,11 @@
+node_modules/
+
+# Scraped TradingView sources belong to their authors (MPL, CC BY-NC-SA, ...): fetch locally with scrape.mjs
+scripts/
+
+# Latest-run outputs; archived copies live in reports/
+report.md
+report.json
+tv-compile.json
+
+.DS_Store

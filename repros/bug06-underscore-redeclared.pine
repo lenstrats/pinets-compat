@@ -1,0 +1,6 @@
+//@version=6
+indicator("repro")
+f() => [close, open]
+[_, a] = f()
+[_, b] = f()
+plot(a + b)

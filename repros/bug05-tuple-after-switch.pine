@@ -1,0 +1,10 @@
+//@version=6
+indicator("repro")
+f(s) =>
+    b = 3
+    a = switch s
+        "A" => 1
+        => 2
+    [a, b]
+[x, y] = f("A")
+plot(x)

@@ -1,0 +1,6 @@
+//@version=6
+indicator("repro")
+a = 1
+plot(close, "c",
+     color = color.red), a += 1
+plot(a)

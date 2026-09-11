@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(request.security(syminfo.tickerid, "12M", close))

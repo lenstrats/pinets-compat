@@ -1,0 +1,7 @@
+//@version=6
+indicator("repro")
+type P
+    float price
+    int t
+arr = array.from(P.new(1.0, 1), P.new(2.0, 2))
+plot(arr.binary_search(2.0, sort_field = "price"))

@@ -1,0 +1,4 @@
+//@version=6
+indicator("repro")
+footprint fp = request.footprint(1, 70)
+plot(fp.buy_volume())

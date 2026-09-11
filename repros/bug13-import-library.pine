@@ -1,0 +1,4 @@
+//@version=6
+indicator("repro")
+import TradingView/ta/9 as tvta
+plot(tvta.dema(close, 10))

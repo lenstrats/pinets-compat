@@ -1,0 +1,426 @@
+{
+  "checkedAt": "2026-09-11T08:49:48.345Z",
+  "results": [
+    {
+      "name": "bug01-eager-ternary-array-get",
+      "issue": "#297",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Index 0 is out of bounds, array size is 0."
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug01-eager-and-array-get",
+      "issue": "#297",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Index 0 is out of bounds, array size is 0."
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug02-security-udf-second-call",
+      "issue": "#278",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "undefined is not an object (evaluating 'Kt.params[w][xr]')"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug03-timeframe-480",
+      "issue": "#279",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Invalid timeframe"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug03-timeframe-1440",
+      "issue": "#279",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Invalid timeframe"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug03-timeframe-12M",
+      "issue": "#279",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Invalid timeframe"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug04-continuation-starts-with-operator",
+      "issue": "#252",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 4:6"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug05-tuple-after-switch",
+      "issue": "#255",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Expected RBRACKET but got COMMA at 8:8"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug06-underscore-redeclared",
+      "issue": "#250",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Identifier '_' has already been declared (7:5)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug07-named-args-nan",
+      "issue": "#267",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "WRONG",
+        "detail": "all values NaN"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug08-method-on-float",
+      "issue": "#267",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "close.dbl is not a function. (In 'close.dbl()', 'close.dbl' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug11-scale-namespace",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "scale is not defined"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug12-comment-indented-deeper",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 4:19"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug12-comment-indented-deeper-udt-field",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got INDENT at 5:21"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug13-import-library",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Unexpected token KEYWORD 'import' at 3:7"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug14-method-as-variable-name",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Expected IDENTIFIER but got OPERATOR at 3:16"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug15-label-set-text-font-family",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "label.set_text_font_family is not a function. (In 'label.set_text_font_family(p4, p5)', 'label.set_text_font_family' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug16-udt-method-on-for-in-var",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "z.bump is not a function. (In 'z.bump()', 'z.bump' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug17-const-inside-udf",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "MAXB is not defined"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug18-enum-as-param-type",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Mode is not defined"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug19-comma-after-multiline-call",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Unexpected token COMMA ',' at 5:25"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug20-request-financial",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "request.financial is not a function. (In 'request.financial(p1, p2, p3, p4)', 'request.financial' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug20-request-earnings",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "request.earnings is not a function. (In 'request.earnings(p1, p2, p3)', 'request.earnings' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug20-request-dividends",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "request.dividends is not a function. (In 'request.dividends(p1, p2, p3)', 'request.dividends' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug20-request-currency-rate",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "request.currency_rate is not a function. (In 'request.currency_rate(p1, p2)', 'request.currency_rate' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug21-table-cell-set-text-formatting",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "table.cell_set_text_formatting is not a function. (In 'table.cell_set_text_formatting(p8, p9, p10, p11)', 'table.cell_set_text_formatting' is undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "bug22-strategy-closedtrades",
+      "issue": "new",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "WRONG",
+        "detail": "closedtrades never > 0 (last=undefined)"
+      },
+      "verdict": "PINETS BUG (valid on TV)"
+    },
+    {
+      "name": "version-7-accepted",
+      "issue": "new",
+      "tvCompiles": false,
+      "tvErrors": [
+        "CE10248 Version=7 is not supported. Supported versions are <= 6.",
+        "{\"success\":false,\"result\":{\"errors2\":[{\"code\":\"CE10248\",\"ctx\":{\"range\":\"<= 6\",\"version\":7},\"message\":\"Version={version} is not supported. Supported versions are {range}.\"}]}}"
+      ],
+      "pinets": {
+        "status": "OK",
+        "detail": "last=77390.01"
+      },
+      "verdict": "PINETS BUG (accepts invalid version)"
+    },
+    {
+      "name": "feat-2026-08-once",
+      "feature": "Aug 2026",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "Failed to transpile Pine Script version 6: Unexpected token INDENT '' at 5:5"
+      },
+      "verdict": "MISSING IN PINETS"
+    },
+    {
+      "name": "feat-2026-08-binary-search-sort-field",
+      "feature": "Aug 2026",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "WRONG",
+        "detail": "last=-1, expected 1"
+      },
+      "verdict": "WRONG RESULT IN PINETS"
+    },
+    {
+      "name": "feat-2026-04-multiline-string",
+      "feature": "Apr 2026",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "WRONG",
+        "detail": "last=0, expected 17"
+      },
+      "verdict": "WRONG RESULT IN PINETS"
+    },
+    {
+      "name": "feat-2026-04-array-sort-sort-field",
+      "feature": "Apr 2026",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "WRONG",
+        "detail": "last=2, expected 1"
+      },
+      "verdict": "WRONG RESULT IN PINETS"
+    },
+    {
+      "name": "feat-2026-01-request-footprint",
+      "feature": "Jan 2026",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "request.footprint is not a function. (In 'request.footprint(p1, p2)', 'request.footprint' is undefined)"
+      },
+      "verdict": "MISSING IN PINETS"
+    },
+    {
+      "name": "feat-2025-bid-ask",
+      "feature": "Feb 2025",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "ERR",
+        "detail": "bid is not defined"
+      },
+      "verdict": "MISSING IN PINETS"
+    },
+    {
+      "name": "feat-2025-syminfo-isin",
+      "feature": "Nov 2025",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "OK",
+        "detail": "last=0"
+      },
+      "verdict": "supported"
+    },
+    {
+      "name": "feat-2025-time-timeframe-bars-back",
+      "feature": "Oct 2025",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "OK",
+        "detail": "last=1789084800000"
+      },
+      "verdict": "supported"
+    },
+    {
+      "name": "feat-2025-plot-linestyle",
+      "feature": "Sep 2025",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "OK",
+        "detail": "last=77378.03"
+      },
+      "verdict": "supported"
+    },
+    {
+      "name": "feat-2025-calc-on-every-history-tick",
+      "feature": "Jul 2025",
+      "tvCompiles": true,
+      "tvErrors": [],
+      "pinets": {
+        "status": "OK",
+        "detail": "last=77378.03"
+      },
+      "verdict": "supported"
+    }
+  ]
+}

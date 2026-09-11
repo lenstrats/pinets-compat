@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro", scale = scale.right)
+plot(close)

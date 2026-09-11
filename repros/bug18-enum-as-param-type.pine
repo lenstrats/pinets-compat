@@ -1,0 +1,7 @@
+//@version=6
+indicator("repro")
+enum Mode
+    a
+    b
+f(Mode m) => m == Mode.a ? 1 : 0
+plot(f(Mode.a))

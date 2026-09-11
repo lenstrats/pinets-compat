@@ -1,0 +1,9 @@
+//@version=6
+strategy("repro")
+f = ta.sma(close, 5)
+s = ta.sma(close, 20)
+if ta.crossover(f, s)
+    strategy.entry("L", strategy.long)
+if ta.crossunder(f, s)
+    strategy.close("L")
+plot(strategy.closedtrades)

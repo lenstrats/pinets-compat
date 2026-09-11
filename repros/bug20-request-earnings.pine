@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(request.earnings(syminfo.tickerid, earnings.actual, ignore_invalid_symbol = true))

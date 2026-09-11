@@ -1,0 +1,14 @@
+{
+  "name": "tradingview-pinets",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "bun repro.mjs",
+    "scrape": "bun scrape.mjs",
+    "run-all": "bun run.mjs",
+    "tv-compile": "bun tv-compile.mjs"
+  },
+  "dependencies": {
+    "pinets": "0.9.33"
+  }
+}

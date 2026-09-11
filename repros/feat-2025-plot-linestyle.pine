@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(close, "c", color.red, 2, linestyle = plot.linestyle_dotted)

@@ -1,0 +1,3 @@
+//@version=6
+strategy("repro", calc_on_every_history_tick = true)
+plot(close)

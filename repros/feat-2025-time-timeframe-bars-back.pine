@@ -1,0 +1,3 @@
+//@version=6
+indicator("repro")
+plot(time("1D", bars_back = 1, timeframe_bars_back = 1))
